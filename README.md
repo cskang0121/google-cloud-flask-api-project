@@ -9,7 +9,7 @@ This project focuses on how to build a Flask API that enforces REST design princ
 2. Run ```python3 flask_api.py``` to start the API on local server.
 3. Now you can test the API with [Insomnia](https://insomnia.rest/download), i.e., an open source api client.
 
-If you encountered the following error message on Insomnia while making a POST request :
+If you encounter the following error message on Insomnia while making a POST request :
 
 ```{ "message": "Failed to decode JSON object: Expecting value: line 1 column 1 (char 0)" }```
 
