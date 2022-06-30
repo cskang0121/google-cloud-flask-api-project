@@ -17,9 +17,11 @@ Please change the setting from JSON to Plain on your Insomnia dashboard as shown
 
 <img width="517" alt="Screenshot 2022-06-30 at 2 59 47 PM" src="https://user-images.githubusercontent.com/79074359/176613130-7d6f16ef-688a-43ec-b891-1d5d4f62db69.png">
 
-## More Resources
-
+## Project Resources
 - [Tutorial (Youtube)](https://www.youtube.com/watch?v=MF75aNH3Gjs)
 - [Tutorial (Medium)](https://towardsdatascience.com/the-right-way-to-build-an-api-with-python-cd08ab285f8f)
 - [What is an API endpoint?](https://rapidapi.com/blog/api-glossary/endpoint/)
 - [IBM | REST API design principles](https://www.ibm.com/sg-en/cloud/learn/rest-apis)
+
+## More Resources
+- [Introduction to APIs in Python](https://www.youtube.com/watch?v=g_yMowQikOE)
