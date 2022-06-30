@@ -1,7 +1,6 @@
 # Project Description
 
-- This repository is for self-learning purposes
-- Topic : Communication between Flask API and RDBMS
+This project focuses on how to build a Flask API that enforces REST design principles. It is meant for beginner or intermediate learners to improve on coding knowledge and API architecture. Feel free to file an issue if you need any clarification! 
 
 ## Configuration & Running the Flask API 
 1. Run ```pip install flask flask-restful``` if the packages is not already installed.
@@ -18,7 +17,7 @@ Please change the setting from JSON to Plain on your Insomnia dashboard as shown
 
 ## Resources
 
-- Tutorial (Youtube) : https://www.youtube.com/watch?v=MF75aNH3Gjs
-- Tutorial (Medium) : https://towardsdatascience.com/the-right-way-to-build-an-api-with-python-cd08ab285f8f
-
-- What is an API endpoint? : https://rapidapi.com/blog/api-glossary/endpoint/
+- [Tutorial (Youtube)](https://www.youtube.com/watch?v=MF75aNH3Gjs)
+- [Tutorial (Medium)](https://towardsdatascience.com/the-right-way-to-build-an-api-with-python-cd08ab285f8f)
+- [What is an API endpoint?](https://rapidapi.com/blog/api-glossary/endpoint/)
+- [IBM | REST API design principles](https://www.ibm.com/sg-en/cloud/learn/rest-apis)
