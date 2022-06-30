@@ -5,7 +5,7 @@
 This project focuses on how to build a Flask API that enforces REST design principles. It is meant for beginner or intermediate learners to improve on coding knowledge and API architecture. Feel free to file an issue if you need any clarification!  
 
 ## Configuration & Running the Flask API 
-1. Run ```pip install flask flask-restful``` if the packages is not already installed.
+1. Run ```pip install flask flask-restful``` if the package is not already installed.
 2. Run ```python3 flask_api.py``` to start the API on local server.
 3. Now you can test the API with [Insomnia](https://insomnia.rest/download), i.e., an open source api client.
 
