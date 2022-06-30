@@ -17,7 +17,7 @@ Please change the setting from JSON to Plain on your Insomnia dashboard as shown
 
 <img width="517" alt="Screenshot 2022-06-30 at 2 59 47 PM" src="https://user-images.githubusercontent.com/79074359/176613130-7d6f16ef-688a-43ec-b891-1d5d4f62db69.png">
 
-## Deployment of Flask API at Google Cloud
+## Deployment of Flask API on Google Cloud
 
 Upon testing the API logic with Insomnia, the API is ready to be deployed on Google Cloud...
 
