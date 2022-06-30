@@ -25,3 +25,4 @@ Please change the setting from JSON to Plain on your Insomnia dashboard as shown
 
 ## More Resources
 - [Introduction to APIs in Python](https://www.youtube.com/watch?v=g_yMowQikOE)
+- [How to Deploy API to Google Cloud](https://www.youtube.com/watch?v=3fsIcMgUOY8&t=23s)
