@@ -1,6 +1,6 @@
 # Project Description
 
-This project focuses on how to build a Flask API that enforces REST design principles. It is meant for beginner or intermediate learners to improve on coding knowledge and API architecture. Apart from that, Feel free to file an issue if you need any clarification!  
+This project focuses on how to build a Flask API that enforces REST design principles. It is meant for beginner or intermediate learners to improve on coding knowledge and API architecture. Also, we will learn how to deploy this simple API on Google Cloud Platform! PS : Feel free to file an issue if you need any clarification.  
 
 ## Configuration & Running the Flask API 
 1. Run ```pip install flask flask-restful``` if the package is not already installed.
@@ -17,7 +17,26 @@ Please change the setting from JSON to Plain on your Insomnia dashboard as shown
 
 ## Deployment of Flask API on Google Cloud
 
-Upon testing the API logic with Insomnia, the API is ready to be deployed on Google Cloud...
+Upon testing the API logic with Insomnia, the API is ready to be deployed on Google Cloud. The step-by-step instructions are as follows:
+
+1. Create a Google Cloud Platform(GCP) account.
+2. Upon successful account creation, create a new project in the UI dashboard and you are able to retrieve the 'Project ID'.
+3. Search for 'Cloud Build API' and enable it.
+4. Install GCP SDK CLI [here](https://cloud.google.com/sdk/docs/install).
+5. Follow the installation guide to install CLI service and setting the path.
+6. Run ```gcloud app create --project=blissful-column-355016``` in the project terminal. Note that project is being set to YOUR OWN project id (the id shown above is mine).
+7. You will be able to choose the region when you want the API engine located : ```Please enter your numeric choice:  7``` (7 represents asia-southeast1) 
+8. After the app is successfully created, run ```gcloud components install app-engine-python``` in the project terminal.
+9. To test if our API actually works before official deployment :
+- Run ```pip install gunicorn``` 
+- Run ```gunicorn -b :8000 main:app``` : This initialises and runs the app at port 8000.
+- Copy and paste ```http://0.0.0.0:8000/users``` in the browser to see if the API is actually running smoothly.
+- Run ```Ctrl + C``` to kill the running API.
+10. Add app.yaml and requirements.txt in the project root folder.
+11. Run ```gcloud config set project blissful-column-355016```
+12. Run ```gcloud app deploy``` to officially deploy the API :
+
+13. Now, retrieve the URL shown ```https://blissful-column-355016.as.r.appspot.com``` and the API is officially uploaded! Note that gcloud will create a .gcloudignore file for you to ignore unnecessary files.
 
 ## Credits 
 > Special thanks to [James Briggs](https://www.youtube.com/watch?v=MF75aNH3Gjs) for creating this amazing project 🙏🏻

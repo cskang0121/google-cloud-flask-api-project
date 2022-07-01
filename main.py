@@ -106,7 +106,7 @@ class Users (Resource):
                 'message': f"'{args['userId']}' user not found."
             }, 404
 
-    # To test DELETE request : 
+    # To test DELETE request : http://127.0.0.1:5000/users?userId=a1b
     def delete(self):
 
         # initialize
