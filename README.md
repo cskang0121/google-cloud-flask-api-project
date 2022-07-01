@@ -46,7 +46,8 @@ Upon testing the API logic with Insomnia, the API is ready to be deployed on Goo
 ## Project Resources
 - [Tutorial 1 (Youtube)](https://www.youtube.com/watch?v=MF75aNH3Gjs)
 - [Tutorial 2 (Youtube)](https://www.youtube.com/watch?v=3fsIcMgUOY8&t=23s)
-- [Tutorial (Medium)](https://towardsdatascience.com/the-right-way-to-build-an-api-with-python-cd08ab285f8f)
+- [Tutorial 1 (Medium)](https://towardsdatascience.com/the-right-way-to-build-an-api-with-python-cd08ab285f8f)
+- [Tutorial 2 (Medium)](https://towardsdatascience.com/how-to-deploy-a-flask-api-8d54dd8d8b8a)
 - [What is an API endpoint?](https://rapidapi.com/blog/api-glossary/endpoint/)
 - [IBM | REST API design principles](https://www.ibm.com/sg-en/cloud/learn/rest-apis)
 
