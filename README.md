@@ -38,7 +38,7 @@ Upon testing the API logic with Insomnia, the API is ready to be deployed on Goo
 
 <img width="683" alt="Screenshot 2022-07-02 at 1 22 16 AM" src="https://user-images.githubusercontent.com/79074359/176942464-3d2b7bfa-13d0-4b80-be6f-c9e055891a49.png">
 
-13. Now, retrieve the URL shown ```https://blissful-column-355016.as.r.appspot.com``` and the API is officially deployed. Note that gcloud will create a .gcloudignore file for you to ignore unnecessary files.
+13. Now, retrieve the URL shown ```https://blissful-column-355016.as.r.appspot.com/users``` and the API is officially deployed. Note that gcloud will create a .gcloudignore file for you to ignore unnecessary files.
 
 ## Credits 
 > Special thanks to [James Briggs](https://www.youtube.com/watch?v=MF75aNH3Gjs) for creating this amazing project 🙏🏻
