@@ -1,7 +1,5 @@
 # Project Description
 
-> Special thanks to [James Briggs](https://www.youtube.com/watch?v=MF75aNH3Gjs) for creating this amazing project!
-
 This project focuses on how to build a Flask API that enforces REST design principles. It is meant for beginner or intermediate learners to improve on coding knowledge and API architecture. Apart from that, Feel free to file an issue if you need any clarification!  
 
 ## Configuration & Running the Flask API 
@@ -20,6 +18,9 @@ Please change the setting from JSON to Plain on your Insomnia dashboard as shown
 ## Deployment of Flask API on Google Cloud
 
 Upon testing the API logic with Insomnia, the API is ready to be deployed on Google Cloud...
+
+## Credits 
+> Special thanks to [James Briggs](https://www.youtube.com/watch?v=MF75aNH3Gjs) for creating this amazing project 🙏🏻
 
 ## Project Resources
 - [Tutorial 1 (Youtube)](https://www.youtube.com/watch?v=MF75aNH3Gjs)
