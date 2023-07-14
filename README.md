@@ -1,4 +1,4 @@
-# Project Description
+## Project Description
 
 This project focuses on how to build a Flask API that enforces REST design principles. It is meant for beginner or intermediate learners to improve on coding knowledge and API architecture. Also, we will learn how to deploy this simple API on Google Cloud Platform! PS : Feel free to file an issue if you need any clarification.  
 
